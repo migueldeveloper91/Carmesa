@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/fondo"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animacion"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:lottie_fileName="animation-w128-h128.json"
+            app:lottie_imageAssetsFolder="assets" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/carmesa"
+            android:textColor="@android:color/background_light"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="282dp" />
+
+        <EditText
+            android:id="@+id/etUsr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_action_user"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_action_key"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="22sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:gravity="left|center_vertical|center"
+                android:text="@string/administrador"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp" />
+
+            <RadioButton
+                android:id="@+id/rbUsr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical|center"
+                android:text="Usuario"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:drawableStart="@drawable/ic_action_send"
+            android:padding="7dp"
+            android:text="@string/ingresar"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

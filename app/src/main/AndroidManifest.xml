@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.carmesa">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name=".InicioUsr"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name=".CrearCliente"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".EditarCliente"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".VehiculoCliente"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".EditarCarro"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".about"
+            android:parentActivityName=".InicioUsr"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioUsr" />
+        </activity>
+        <activity
+            android:name=".MedioCompra"
+            android:parentActivityName=".InicioUsr"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".InicioUsr" />
+        </activity>
+        <activity
+            android:name=".lista_clientes"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+        <activity
+            android:name=".lista_carros"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Inicio"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Inicio" />
+        </activity>
+    </application>
+
+</manifest>

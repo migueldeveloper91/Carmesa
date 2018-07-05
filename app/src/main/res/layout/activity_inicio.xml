@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="0dp"
+        android:background="@mipmap/fondo2"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnCrear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/llantas"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="@string/crear_cliente"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/llantas"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="@string/editar_cliente"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnEditarCarro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/llantas"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="Editar Datos del Carro"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnlistaClientes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/llantas"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="Listado de Clientes"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnlistaCarros"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/llantas"
+            android:shadowColor="@android:color/darker_gray"
+            android:text="Listado de Vehiculos"
+            android:textColor="@android:color/background_light"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+</RelativeLayout>

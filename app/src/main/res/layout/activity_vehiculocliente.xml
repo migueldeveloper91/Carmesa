@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".VehiculoCliente">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#e9e9e9"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Registro del Vehiculo"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#e9e9e9"
+        app:cardCornerRadius="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etplaca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Placa"
+                        android:inputType="textCapCharacters" />
+
+                    <EditText
+                        android:id="@+id/etmodelo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Modelo"
+                        android:inputType="textCapCharacters" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etmarca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Marca"
+                        android:inputType="textCapCharacters" />
+
+                    <EditText
+                        android:id="@+id/etcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Color"
+                        android:inputType="textCapCharacters" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etfechaingreso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Fecha de ingreso"
+                        android:inputType="date" />
+
+                    <Button
+                        android:id="@+id/btnfechaingreso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:drawableRight="@drawable/ic_date_range"
+                        android:text="Fecha"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/etdescripcioning"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Detalles de ingreso"
+                    android:inputType="textMultiLine" />
+
+                <EditText
+                    android:id="@+id/etmotor"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Estado del motor"
+                    android:inputType="textMultiLine" />
+
+                <EditText
+                    android:id="@+id/etsuspension"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Estado de la Suspensión"
+                    android:inputType="textMultiLine" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etfechasalida"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Fecha de entrega"
+                        android:inputType="date" />
+
+                    <Button
+                        android:id="@+id/btnfechasalida"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:drawableRight="@drawable/ic_date_range"
+                        android:text="Fecha"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/etdescripcionsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="10dp"
+                    android:ems="10"
+                    android:hint="Detalles de la entrega"
+                    android:inputType="textMultiLine" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:text="Meses de garantia:" />
+
+                    <Spinner
+                        android:id="@+id/spgarantia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal|center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/foto1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_vertical|center_horizontal|center"
+
+                                android:layout_weight="1"
+                                android:foregroundGravity="center_vertical|center_horizontal|center"
+                                app:srcCompat="@drawable/camera" />
+
+                            <ImageView
+                                android:id="@+id/foto2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_vertical|center_horizontal|center"
+
+                                android:layout_weight="1"
+                                android:foregroundGravity="center_vertical|center_horizontal|center"
+                                app:srcCompat="@drawable/camera" />
+
+                            <ImageView
+                                android:id="@+id/foto3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center_vertical|center_horizontal|center"
+
+                                android:layout_weight="1"
+                                android:foregroundGravity="center_vertical|center_horizontal|center"
+                                app:srcCompat="@drawable/camera" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btncrearcar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/colorPrimary"
+                    android:drawableRight="@drawable/ic_action_save"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:text="Guardar"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

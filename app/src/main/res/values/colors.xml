@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c4e80</color>
+    <color name="colorPrimaryDark">#2669ac</color>
+    <color name="colorAccent">#40a0ff</color>
+    <color name="fondo">#942d5d8c</color>
+    <color name="fondoBtn">#c32d558c</color>
+    <color name="colorhintusr">#283eaf</color>
+    <color name="bgfooter">#d6d6d6</color>
+</resources>

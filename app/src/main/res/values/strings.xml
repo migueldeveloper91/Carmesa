@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Carmesa</string>
+    <string name="carmesa">CARMESA</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="administrador">Administrador</string>
+    <string name="usuarios">Usuario</string>
+    <string name="crear_cliente">Crear Cliente</string>
+    <string name="editar_cliente">EDITAR CLIENTE</string>
+    <string name="eliminar_cliente">ELIMINAR CLIENTE</string>
+    <string name="vehiculo_del_cliente">Vehiculo del Cliente</string>
+    <string name="crear_cliente_title">Crear Cliente</string>
+    <string name="error_validar">Campo Requerido</string>
+    <string name="cliente">Cliente</string>
+    <string name="estado_del_carro">Estado del Carro</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="todo">TODO</string>
+    <string name="todos">TODO</string>
+    <string name="buscar">Buscar</string>
+    <string name="placa">Placa:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="color">Color:</string>
+    <string name="detalles_de_ingreso">Detalles de ingreso:</string>
+    <string name="detalles_de_salida">Detalles de Salida:</string>
+    <string name="marca">Marca:</string>
+    <string name="telefono_fijo">Telefono Fijo:</string>
+    <string name="direcci_n">Dirección:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="nombres">Nombres:</string>
+    <string name="documento">Documento:</string>
+    <string name="contrase_a">Contraseña:</string>
+    <string name="fecha_de_entrega">Fecha De Entrega:</string>
+    <string name="garantia">Garantia:</string>
+    <string name="estado_del_motor">Estado del Motor:</string>
+    <string name="fecha_de_ingreso">Fecha de Ingreso:</string>
+    <string name="estado_de_la_suspension">Estado de la suspension:</string>
+    <string name="username">Username</string>
+    <string name="telefono_movil">Telefono Movil:</string>
+
+
+    <string-array name="Titulos">
+        <item>Casqueteria de bela en marca NPC</item>
+        <item>Casqueteria de bancada</item>
+        <item>Culata De Motor Hyundai Atos Kia Picanto</item>
+        <item>Soporte Motor Trasero Atos Buje Grande</item>
+        <item>Soporte Base Delantero Motor Hyundai Atos </item>
+        <item>Biela Motor Hyundai Atos</item>
+        <item>Empaquetadura Motor Chery Van 1</item>
+        <item>Empaquetadura Motor Twingo 16valvulas marca Fraco </item>
+        <item>Cuerpo Aceleración Renault Duster</item>
+        <item>Motor Paso Iac Atos</item>
+        <item>Piston Std Hyundai Atos</item>
+        <item>Par Amortiguadores Delanteros Hyundai Atos</item>
+        <item>Módulo De Bomba De Combustible Hyundai Atos Prime</item>
+        <item>Deposito Agua Radiador Hyundai Atos 2006 A 2012 Taiwan</item>
+        <item>Sensor Posición Eje De Levas (sensor Cmp) Hyundai Atos, Getz</item>
+
+    </string-array>
+
+    <string-array name="Descripcion">
+        <item>Descripcion1</item>
+        <item>Descripcion2</item>
+        <item>Descripcion3</item>
+        <item>Descripcion4</item>
+        <item>Descripcion5</item>
+        <item>Descripcion6</item>
+        <item>Descripcion1</item>
+        <item>Descripcion2</item>
+        <item>Descripcion3</item>
+        <item>Descripcion4</item>
+        <item>Descripcion5</item>
+        <item>Descripcion6</item>
+        <item>Descripcion1</item>
+        <item>Descripcion2</item>
+        <item>Descripcion3</item>
+
+    </string-array>
+
+
+    <string-array name="Valor">
+        <item>50000</item>
+        <item>70000</item>
+        <item>600000</item>
+        <item>90000</item>
+        <item>70000</item>
+        <item>90000</item>
+        <item>130000</item>
+        <item>210000</item>
+        <item>400000</item>
+        <item>190000</item>
+        <item>150000</item>
+        <item>296000</item>
+        <item>169900</item>
+        <item>44000</item>
+        <item>70000</item>
+
+    </string-array>
+
+    <string name="title_activity_tienda">tienda</string>
+    <string name="item">Item</string>
+
+    <string name="acerca_de_nosotros">
+        Somos una empresa dedicada al servicio en mecanica en general a multimarca, servicio full inyeccion ,reparaciones de motor ,suspencion
+        contamos con servicio de latoneria y almacen, ademas de ello contamos con rectificadora propia de motores con
+        esto garantizamos un trabajo mas eficiente y rapido, somos el unico taller en entregar reparaciones de motor de cualquier vehiculo en un dia.\n\n
+
+        Personal altamente capacitado en servicios de motor electricidad suspencion y servicio de escaner.\n
+        Contamos con servicio de parqueadero.\n\n
+
+        Telefono 233 03 20\n
+        Horario de atencion de 6:00 am A 7:30 pm\n
+        Direccion Carrera 21 No 1-20\n
+</string>
+    <string name="title_activity_lista_clientes">lista_clientes</string>
+    <string name="title_activity_lista_carros">lista_carros</string>
+
+</resources>
